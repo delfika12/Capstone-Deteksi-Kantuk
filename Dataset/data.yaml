@@ -1,5 +1,0 @@
-path: /path/to/dataset
-train: images/train
-val: images/val
-nc: 1
-names: ['eye_closed']
