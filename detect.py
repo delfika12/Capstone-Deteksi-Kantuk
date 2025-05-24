@@ -19,7 +19,7 @@ def run():
         import pathlib
         pathlib.PosixPath = pathlib.WindowsPath
 
-    weights = 'run/best.pt'  # Path model YOLO custom Anda
+    weights = 'saved_model/best.pt'  # Path model YOLO custom Anda
     source = 'http://192.168.137.254:81/stream'  # MJPEG stream ESP32-CAM
     conf_thres = 0.25
     iou_thres = 0.45
